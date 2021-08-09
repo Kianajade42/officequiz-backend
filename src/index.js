@@ -6,7 +6,10 @@ import QuestionBox from "./components/QuestionBox"
 
 class Quiz extends Component {
     state = {
-        questionBank: []
+        questionBank: [],
+        score: 0,
+        responses: 0
+
     };
     getQuestions = () => {
         quiz().then(question => {
@@ -16,6 +19,17 @@ class Quiz extends Component {
 
         });
     };
+    computeAnswer =
+    (answer, correctAnswer) => {
+        if (answer === correctAnswer) {
+this.setState({
+    score: this.state.score + 1
+});
+        }
+        this.setState({
+            responses: this.state.responses < 5 ? this.state.responses + 1 : 5
+        })
+    }
     componentDidMount(){
         this.getQuestions();
     }
@@ -24,9 +38,13 @@ class Quiz extends Component {
         <div className="container">
         <div className="title">IT IS THE OFFICE QUIZ.</div>
         <div className="intro"> WHO SAID IT?</div>
-        {this.state.questionBank.length > 0 && this.state.questionBank.map(
+        {this.state.questionBank.length > 0 && 
+        this.state.responses < 5 &&
+        this.state.questionBank.map(
             ({question, answers, questionId}) => (
-        <QuestionBox question={question} options={answers} key={questionId} /> ) 
+        <QuestionBox question={question} options={answers} key={questionId} 
+        selected={answer => this.computeAnswer(answer)}
+        /> ) 
         )}
         </div> 
     )
