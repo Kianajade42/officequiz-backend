@@ -4,8 +4,8 @@
 }
 .container {
   position: center;
-  width: 1024px;
-  height: 800px;
+  width: 1030px;
+  height: 810px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -61,4 +61,18 @@
   font-weight: bold;
   border-radius: 15px;
   cursor: pointer;
+}
+
+.score-board {
+  position: relative;
+  height: 600px;
+  background-color: rgba(206, 204, 202, 0.74);
+}
+
+.score {
+  position: absolute;
+  width: 1024px;
+  font-size: 3em;
+  top: 250px;
+  text-align: center;
 }

@@ -3,6 +3,7 @@ import ReactDom from "react-dom";
 import "./assets/style.css";
 import  quiz from "./quiz";
 import QuestionBox from "./components/QuestionBox"
+import Result from "./components/Result";
 
 class Quiz extends Component {
     state = {
@@ -46,7 +47,7 @@ this.setState({
         selected={answer => this.computeAnswer(answer)}
         /> ) 
         )}
-        {this.state.responses === 5 ? (<h2>{this.state.score}</h2>) : null}
+        {this.state.responses === 5 ? (<Result score={this.state.score}/>) : null}
         </div> 
     )
 }
