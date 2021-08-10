@@ -57,7 +57,7 @@ const qBank = [
   },
     {
     question:
-      "Do I regret this? No, I believe his tissue has made me stronger. I now have the strength of a grown man and a little baby.",
+      "Do I regret this? No, I believe his tissue has made me stronger.",
     answers: ["Andy Bernard","Dwight Schrute","Jim Halpert","Robert California",],
     correct: "Dwight Schrute",
     questionId: "9"
@@ -176,9 +176,9 @@ const qBank = [
   },
     {
     question:
-      "Ryan Howard is a junior sales associate at a mid-range paper supply firm.’ That’ll show ’em.",
+      "Webster’s dictionary defines wedding as: The fusing of two metals with a hot torch.",
     answers: ["Michael Scott","Creed Bratton","Angela Martin","Ryan Howard"],
-    correct: "Ryan Howard",
+    correct: "Michael Scott",
     questionId: "26"
   },
     {
@@ -197,7 +197,7 @@ const qBank = [
   },
     {
     question:
-      "I already won the lottery. I was born in the US of A, baby. And as backup, I have a Swiss passport",
+      "I already won the lottery. I was born in the US of A, baby.",
     answers: ["Andy Bernard","Stanley Hudson","Ryan Howard","Creed Bratton"],
     correct: "Creed Bratton",
     questionId: "29"
@@ -278,6 +278,41 @@ const qBank = [
     answers: ["Michael Scott","Robert California","Phyllis Lapin-Vance","Pam Beesly"],
     correct: "Phyllis Lapin-Vance",
     questionId: "40"
+  },
+    {
+    question:
+      "You gave your baby an allergic reaction just to talk to me?",
+    answers: ["Angela Martin","Dwight Schrute","Phyllis Lapin-Vance","Kelly Kapoor"],
+    correct: "Kelly Kapoor",
+    questionId: "41"
+  },
+   {
+    question:
+      "Yeah, I have a lot of questions. Number one- How dare you?",
+    answers: ["Pam Beesly","Michael Scott","Kelly Kapoor","Jim Halpert"],
+    correct: "Kelly Kapoor",
+    questionId: "42"
+  },
+   {
+    question:
+      "Break me off a piece of that...fancy feast.",
+    answers: ["Michael Scott","Andy Bernard","Ryan Howard","Pam Beesly"],
+    correct: "Andy Bernard",
+    questionId: "43"
+  },
+   {
+    question:
+      "I stopped caring a long time ago.",
+    answers: ["Creed Bratton","Robert California","Phyllis Lapin-Vance","Stanley Hudson"],
+    correct: "Creed Bratton",
+    questionId: "44"
+  },
+   {
+    question:
+      "Me think, why waste time say lot word, when few word do trick.",
+    answers: ["Meredith Palmer","Kevin Malone","Oscar Martinez","Stanley Hudson"],
+    correct: "Kevin Malone",
+    questionId: "45"
   },
 ]; 
 
