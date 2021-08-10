@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=itc-american-typewriter");
-
+@import url("https://fonts.googleapis.com/css?family=itc+american+typewriter");
 * {
   font-family: "itc-american-typewriter", sans-serif;
 }
-
 .container {
   position: center;
   width: 1024px;
