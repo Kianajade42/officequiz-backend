@@ -1,9 +1,9 @@
-IT IS THE OFFICE QUIZ.
+### 'IT IS THE OFFICE QUIZ.'
 Have you spent countless hours re-watching 'The Office'? Do you think you know who said it? Test your knowledge of classic quotes.
 
 This project was bootstrapped with Create React App and features a RAILS API backend and a React and Redux front-end. It is a single page application.
 
-Installation
+### Installation
 Clone the backend from GitHub git clone https://github.com/Kianajade42/officequiz-backend
 
 cd officequiz_backend
@@ -12,7 +12,7 @@ Run the Rails Server in your backend terminal, specifying 3000 as the local host
 
 In the frontend project directory, you can run:
 
-yarn start
+### yarn start
 Runs the app in the development mode.
 Open http://localhost:3001 to view it in the browser.
 
